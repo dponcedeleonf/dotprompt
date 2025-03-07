@@ -1,0 +1,26 @@
+[METADATA]
+(% Here goes the metadata you want. Only format_version is required %)
+@format_version 0.0.1
+@name Expert in Everything
+@type role
+@author Joe
+@created 2025-02-25
+@description >
+ We can write across multiple
+ lines when we use the > sign
+ 
+[DEFAULTS]
+@topic Artificial Intelligence
+@objective Autonomous Agents
+@tone academic
+@level advanced
+@sections (% If we want we can leave a default value blank %)
+
+[CONTENT]
+You are an expert in {topic}. Your task is to generate content about {objective} using an {tone} tone. The response should be clear, structured, and adapted for an audience with {level} level.
+
+(% Comments are not part of the prompt sent to the AI %)
+
+Organize the content into {sections} (% If not specified, sections will remain blank %) sections, each with a descriptive title. If relevant, use examples, analogies, or data to reinforce the explanation. Make sure the information is {characteristic} (% Since no default value has been defined for characteristic, it will be highlighted as a missing variable %) and avoid unnecessary repetition.
+
+If there are technical terms, provide a brief explanation for them. End with a conclusion that summarizes the key points and suggests next steps or additional resources about {topic}. If there are specific restrictions, respect them at all times.
