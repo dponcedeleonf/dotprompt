@@ -1,0 +1,28 @@
+[METADATA]
+@format_version 0.0.1
+@name Generador de Resúmenes
+@author Equipo NLP
+@version 1.2.0
+@model claude-3, gpt-4
+@description >
+  Plantilla para generar resúmenes concisos manteniendo
+  los puntos clave del texto original.
+
+[DEFAULTS]
+@extension corto
+@tono neutral
+@formato bullet points
+@incluir_fuentes no
+
+[CONTENT]
+Actuarás como un experto en resumir contenido. Tu tarea es crear un resumen {extension} 
+del texto que te proporcionaré, manteniendo un tono {tono}.
+
+Instrucciones específicas:
+1. Presenta el resumen en formato de {formato}
+2. Mantén solo la información esencial
+3. Preserva el significado original sin añadir interpretaciones personales
+4. {incluir_fuentes} incluyas citas o referencias a las fuentes originales
+
+Texto a resumir:
+{texto_input}

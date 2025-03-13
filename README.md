@@ -1,4 +1,4 @@
-# DOTPROMPT - A semi-structured text format for AI prompts
+# `.prompt`  - A semi-structured text format for AI prompts
 
 Welcome to the DOTPROMPT project, a lightweight and semi-structured format designed for defining and managing prompts for generative AI models. The `.prompt` format aims to standardize the creation, versioning, and processing of prompts. This repository serves as the central hub for the format specification and its implementations.
 

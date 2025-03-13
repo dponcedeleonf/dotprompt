@@ -1,0 +1,30 @@
+[METADATA]
+@format_version 0.0.1
+@name Generador de Contenido Creativo
+@author Equipo Creativo
+@model claude-3, gpt-4
+(% Esta plantilla es útil para generar historias, poemas, guiones, etc. %)
+
+[DEFAULTS]
+@genero ciencia ficción
+@longitud media (500 palabras)
+@tono serio
+@audiencia adultos de 30 a 45 años
+@incluir_dialogo sí
+@estructura clásica (introducción, desarrollo, conclusión)
+(% Estos son valores predeterminados, por si al momento de usarse el prompt no se proveen valores nuevos. Pueden ajustarse según las necesidades %)
+
+[CONTENT]
+(% Instrucciones para el modelo %)
+Actuarás como un escritor creativo especializado en {genero}.
+
+Crea una historia de {longitud} con un tono {tono}, dirigida a {audiencia}.
+La estructura narrativa debe ser {estructura} y {incluir_dialogo} debe incluir diálogos entre personajes.
+
+Detalles específicos para la historia:
+- Tema: {{tema}}
+- Personajes: {{personaje_principal}}
+- Entorno: {{entorno}}
+- Conflicto central: {{conflicto}}
+
+(% Estas instrucciones ayudan a estructurar la salida del modelo %)
